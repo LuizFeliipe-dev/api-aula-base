@@ -5,6 +5,10 @@ class ContatoController{
         res.json(getContatos())
     }
 
+    static getOne(req,res){
+        const index = req.params.index
+    }
+
     //static findOne(req,res)
 }
 
